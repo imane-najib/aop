@@ -27,4 +27,12 @@ public class Compte {
     public void setSolde(double solde) {
         this.solde = solde;
     }
+
+    @Override
+    public String toString() {
+        return "Compte{" +
+                "code=" + code +
+                ", solde=" + solde +
+                '}';
+    }
 }
