@@ -1,0 +1,12 @@
+# AOP
+## Creation du FirstAspect
+<img width="765" height="511" alt="image" src="https://github.com/user-attachments/assets/415a4839-a044-4781-959f-a58930a72626" />
+
+ ### L'execution 
+ <img width="647" height="381" alt="image" src="https://github.com/user-attachments/assets/db792360-a438-46a1-aa06-e91eb64bc147" />
+
+ ## Creation du SecondAspect
+ <img width="786" height="530" alt="image" src="https://github.com/user-attachments/assets/195b9cf0-2440-4e3a-8fc4-cdae512b2410" />
+
+ ### L'execution 
+ <img width="661" height="508" alt="image" src="https://github.com/user-attachments/assets/bf819429-8c36-4ac3-bb70-725d5305d72b" />
