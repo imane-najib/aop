@@ -1,28 +1,52 @@
 package aspects;
 
 import org.aspectj.lang.JoinPoint;
-import org.aspectj.lang.annotation.After;
-import org.aspectj.lang.annotation.Aspect;
-import org.aspectj.lang.annotation.Before;
-import org.aspectj.lang.annotation.Pointcut;
+import org.aspectj.lang.ProceedingJoinPoint;
+import org.aspectj.lang.annotation.*;
+
+import java.io.IOException;
+import java.util.logging.FileHandler;
+import java.util.logging.Logger;
 
 @Aspect
 public class LoggingAspect {
-    long t1,t2;
+    Logger logger = Logger.getLogger(LoggingAspect.class.getName());
+
+
+    public LoggingAspect() throws IOException {
+       logger.addHandler(new FileHandler("log.xml"));
+       logger.setUseParentHandlers(false);
+    }
+
     @Pointcut("execution(* metier.MetierBanqueImpl.*(..))")
     public void pc1(){ }
 
-    @Before("pc1()")
+    /*@Before("pc1()")
     public void avant(JoinPoint joinPoint){
         t1 =System.currentTimeMillis();
-        System.out.println("---------------------------------------------------------");
-        System.out.println("Avant l'execution de la methode "+joinPoint.getSignature());
+        logger.info("---------------------------------------------------------");
+        logger.info("Avant l'execution de la methode "+joinPoint.getSignature());
     }
     @After("pc1()")
     public void apres(JoinPoint joinPoint){
-        System.out.println("Apres l'execution de la methode "+joinPoint.getSignature());
+        logger.info("Apres l'execution de la methode "+joinPoint.getSignature());
         t2 =System.currentTimeMillis();
-        System.out.println("Duré d'execution de la methode "+(t2-t1));
-        System.out.println("---------------------------------------------------------");
+        logger.info("Duré d'execution de la methode "+(t2-t1));
+        logger.info("---------------------------------------------------------");
+    }*/
+
+    @Around("pc1()")
+    public Object autour(ProceedingJoinPoint proceedingJoinPoint,JoinPoint joinPoint) throws Throwable{
+        long t1 =System.currentTimeMillis();
+        logger.info("---------------------------------------------------------");
+        logger.info("Avant l'execution de la methode "+joinPoint.getSignature());
+
+        Object o = proceedingJoinPoint.proceed();
+        logger.info("Apres l'execution de la methode "+joinPoint.getSignature());
+        long t2 =System.currentTimeMillis();
+        logger.info("Duré d'execution de la methode "+(t2-t1));
+        logger.info("---------------------------------------------------------");
+    return o;
+
     }
 }
