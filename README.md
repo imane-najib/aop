@@ -15,3 +15,6 @@
 
 ### Test d'application
 <img width="709" height="630" alt="image" src="https://github.com/user-attachments/assets/d379d10b-cb9f-46da-a36a-2bad08d96046" />
+
+## Test de Logging Aspect
+<img width="1395" height="768" alt="image" src="https://github.com/user-attachments/assets/a96af497-1ed2-42dc-87a0-9ca5a4d32b3a" />
