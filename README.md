@@ -21,3 +21,13 @@
 ### En utilisant logger.info
 <img width="1374" height="732" alt="image" src="https://github.com/user-attachments/assets/6f4f68f4-f0e1-4ad9-aa41-54fd00cda8f0" />
 
+### En utilisant un fichier
+<img width="627" height="140" alt="image" src="https://github.com/user-attachments/assets/36e25775-9a67-416b-912a-1cbebac48df8" />
+<img width="625" height="453" alt="image" src="https://github.com/user-attachments/assets/dd0f8f25-4d73-49d6-8f6f-1465f6b68f55" />
+
+<img width="752" height="704" alt="image" src="https://github.com/user-attachments/assets/c72c1739-e08f-4945-8405-f71299ef12bf" />
+
+
+
+
+
