@@ -18,3 +18,6 @@
 
 ## Test de Logging Aspect
 <img width="1395" height="768" alt="image" src="https://github.com/user-attachments/assets/a96af497-1ed2-42dc-87a0-9ca5a4d32b3a" />
+### En utilisant logger.info
+<img width="1374" height="732" alt="image" src="https://github.com/user-attachments/assets/6f4f68f4-f0e1-4ad9-aa41-54fd00cda8f0" />
+
