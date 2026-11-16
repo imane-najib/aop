@@ -27,6 +27,14 @@
 
 <img width="752" height="704" alt="image" src="https://github.com/user-attachments/assets/c72c1739-e08f-4945-8405-f71299ef12bf" />
 
+## Test Aspect Patch Retrait
+<img width="739" height="579" alt="image" src="https://github.com/user-attachments/assets/93f70191-c94a-4710-9305-9fe1049dbc53" />
+
+## Test de Security Aspect
+
+<img width="587" height="324" alt="image" src="https://github.com/user-attachments/assets/3b8d7d91-2f2f-4414-b7bb-d17b2f8cfd4e" />
+<img width="706" height="522" alt="image" src="https://github.com/user-attachments/assets/941df4bb-9337-4b71-b78a-6689c7add454" />
+
 
 
 
