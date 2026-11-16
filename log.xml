@@ -2,9 +2,9 @@
 <!DOCTYPE log SYSTEM "logger.dtd">
 <log>
 <record>
-  <date>2026-11-16T01:13:17.474586600Z</date>
-  <millis>1794791597474</millis>
-  <nanos>586600</nanos>
+  <date>2026-11-16T01:26:59.175317300Z</date>
+  <millis>1794792419175</millis>
+  <nanos>317300</nanos>
   <sequence>0</sequence>
   <logger>aspects.LoggingAspect</logger>
   <level>INFO</level>
@@ -14,9 +14,9 @@
   <message>---------------------------------------------------------</message>
 </record>
 <record>
-  <date>2026-11-16T01:13:17.488995900Z</date>
-  <millis>1794791597488</millis>
-  <nanos>995900</nanos>
+  <date>2026-11-16T01:26:59.185870800Z</date>
+  <millis>1794792419185</millis>
+  <nanos>870800</nanos>
   <sequence>1</sequence>
   <logger>aspects.LoggingAspect</logger>
   <level>INFO</level>
@@ -26,9 +26,9 @@
   <message>Avant l'execution de la methode void metier.MetierBanqueImpl.addCompte(Compte)</message>
 </record>
 <record>
-  <date>2026-11-16T01:13:17.490023100Z</date>
-  <millis>1794791597490</millis>
-  <nanos>23100</nanos>
+  <date>2026-11-16T01:26:59.186221900Z</date>
+  <millis>1794792419186</millis>
+  <nanos>221900</nanos>
   <sequence>2</sequence>
   <logger>aspects.LoggingAspect</logger>
   <level>INFO</level>
@@ -38,21 +38,21 @@
   <message>Apres l'execution de la methode void metier.MetierBanqueImpl.addCompte(Compte)</message>
 </record>
 <record>
-  <date>2026-11-16T01:13:17.490023100Z</date>
-  <millis>1794791597490</millis>
-  <nanos>23100</nanos>
+  <date>2026-11-16T01:26:59.186870600Z</date>
+  <millis>1794792419186</millis>
+  <nanos>870600</nanos>
   <sequence>3</sequence>
   <logger>aspects.LoggingAspect</logger>
   <level>INFO</level>
   <class>metier.MetierBanqueImpl</class>
   <method>addCompte_aroundBody1$advice</method>
   <thread>1</thread>
-  <message>Duré d'execution de la methode 16</message>
+  <message>Duré d'execution de la methode 12</message>
 </record>
 <record>
-  <date>2026-11-16T01:13:17.490980500Z</date>
-  <millis>1794791597490</millis>
-  <nanos>980500</nanos>
+  <date>2026-11-16T01:26:59.186870600Z</date>
+  <millis>1794792419186</millis>
+  <nanos>870600</nanos>
   <sequence>4</sequence>
   <logger>aspects.LoggingAspect</logger>
   <level>INFO</level>
@@ -62,9 +62,9 @@
   <message>---------------------------------------------------------</message>
 </record>
 <record>
-  <date>2026-11-16T01:13:21.265156300Z</date>
-  <millis>1794791601265</millis>
-  <nanos>156300</nanos>
+  <date>2026-11-16T01:27:03.630534800Z</date>
+  <millis>1794792423630</millis>
+  <nanos>534800</nanos>
   <sequence>5</sequence>
   <logger>aspects.LoggingAspect</logger>
   <level>INFO</level>
@@ -74,9 +74,9 @@
   <message>---------------------------------------------------------</message>
 </record>
 <record>
-  <date>2026-11-16T01:13:21.266010100Z</date>
-  <millis>1794791601266</millis>
-  <nanos>10100</nanos>
+  <date>2026-11-16T01:27:03.631532800Z</date>
+  <millis>1794792423631</millis>
+  <nanos>532800</nanos>
   <sequence>6</sequence>
   <logger>aspects.LoggingAspect</logger>
   <level>INFO</level>
@@ -86,9 +86,9 @@
   <message>Avant l'execution de la methode Compte metier.MetierBanqueImpl.consulter(Long)</message>
 </record>
 <record>
-  <date>2026-11-16T01:13:21.266833700Z</date>
-  <millis>1794791601266</millis>
-  <nanos>833700</nanos>
+  <date>2026-11-16T01:27:03.631532800Z</date>
+  <millis>1794792423631</millis>
+  <nanos>532800</nanos>
   <sequence>7</sequence>
   <logger>aspects.LoggingAspect</logger>
   <level>INFO</level>
@@ -98,9 +98,9 @@
   <message>Apres l'execution de la methode Compte metier.MetierBanqueImpl.consulter(Long)</message>
 </record>
 <record>
-  <date>2026-11-16T01:13:21.267048900Z</date>
-  <millis>1794791601267</millis>
-  <nanos>48900</nanos>
+  <date>2026-11-16T01:27:03.632083900Z</date>
+  <millis>1794792423632</millis>
+  <nanos>83900</nanos>
   <sequence>8</sequence>
   <logger>aspects.LoggingAspect</logger>
   <level>INFO</level>
@@ -110,9 +110,9 @@
   <message>Duré d'execution de la methode 2</message>
 </record>
 <record>
-  <date>2026-11-16T01:13:21.267048900Z</date>
-  <millis>1794791601267</millis>
-  <nanos>48900</nanos>
+  <date>2026-11-16T01:27:03.632530900Z</date>
+  <millis>1794792423632</millis>
+  <nanos>530900</nanos>
   <sequence>9</sequence>
   <logger>aspects.LoggingAspect</logger>
   <level>INFO</level>
