@@ -36,7 +36,7 @@ public class Application {
                 Compte compte = metierBanque.consulter(code);
                 System.out.println("Etat du compte : "+ compte.toString());
             } catch (Exception e) {
-                throw new RuntimeException(e);
+                System.out.println(e.getMessage());
             }
         }
     }

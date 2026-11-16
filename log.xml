@@ -2,182 +2,122 @@
 <!DOCTYPE log SYSTEM "logger.dtd">
 <log>
 <record>
-  <date>2026-11-15T19:51:02.919249900Z</date>
-  <millis>1794772262919</millis>
-  <nanos>249900</nanos>
+  <date>2026-11-16T01:13:17.474586600Z</date>
+  <millis>1794791597474</millis>
+  <nanos>586600</nanos>
   <sequence>0</sequence>
   <logger>aspects.LoggingAspect</logger>
   <level>INFO</level>
-  <class>aspects.LoggingAspect</class>
-  <method>avant</method>
+  <class>metier.MetierBanqueImpl</class>
+  <method>addCompte_aroundBody1$advice</method>
   <thread>1</thread>
   <message>---------------------------------------------------------</message>
 </record>
 <record>
-  <date>2026-11-15T19:51:02.935249Z</date>
-  <millis>1794772262935</millis>
-  <nanos>249000</nanos>
+  <date>2026-11-16T01:13:17.488995900Z</date>
+  <millis>1794791597488</millis>
+  <nanos>995900</nanos>
   <sequence>1</sequence>
   <logger>aspects.LoggingAspect</logger>
   <level>INFO</level>
-  <class>aspects.LoggingAspect</class>
-  <method>avant</method>
+  <class>metier.MetierBanqueImpl</class>
+  <method>addCompte_aroundBody1$advice</method>
   <thread>1</thread>
   <message>Avant l'execution de la methode void metier.MetierBanqueImpl.addCompte(Compte)</message>
 </record>
 <record>
-  <date>2026-11-15T19:51:02.936253600Z</date>
-  <millis>1794772262936</millis>
-  <nanos>253600</nanos>
+  <date>2026-11-16T01:13:17.490023100Z</date>
+  <millis>1794791597490</millis>
+  <nanos>23100</nanos>
   <sequence>2</sequence>
   <logger>aspects.LoggingAspect</logger>
   <level>INFO</level>
-  <class>aspects.LoggingAspect</class>
-  <method>apres</method>
+  <class>metier.MetierBanqueImpl</class>
+  <method>addCompte_aroundBody1$advice</method>
   <thread>1</thread>
   <message>Apres l'execution de la methode void metier.MetierBanqueImpl.addCompte(Compte)</message>
 </record>
 <record>
-  <date>2026-11-15T19:51:02.942247600Z</date>
-  <millis>1794772262942</millis>
-  <nanos>247600</nanos>
+  <date>2026-11-16T01:13:17.490023100Z</date>
+  <millis>1794791597490</millis>
+  <nanos>23100</nanos>
   <sequence>3</sequence>
   <logger>aspects.LoggingAspect</logger>
   <level>INFO</level>
-  <class>aspects.LoggingAspect</class>
-  <method>apres</method>
+  <class>metier.MetierBanqueImpl</class>
+  <method>addCompte_aroundBody1$advice</method>
   <thread>1</thread>
-  <message>Duré d'execution de la methode 24</message>
+  <message>Duré d'execution de la methode 16</message>
 </record>
 <record>
-  <date>2026-11-15T19:51:02.943254700Z</date>
-  <millis>1794772262943</millis>
-  <nanos>254700</nanos>
+  <date>2026-11-16T01:13:17.490980500Z</date>
+  <millis>1794791597490</millis>
+  <nanos>980500</nanos>
   <sequence>4</sequence>
   <logger>aspects.LoggingAspect</logger>
   <level>INFO</level>
-  <class>aspects.LoggingAspect</class>
-  <method>apres</method>
+  <class>metier.MetierBanqueImpl</class>
+  <method>addCompte_aroundBody1$advice</method>
   <thread>1</thread>
   <message>---------------------------------------------------------</message>
 </record>
 <record>
-  <date>2026-11-15T19:51:07.571728400Z</date>
-  <millis>1794772267571</millis>
-  <nanos>728400</nanos>
+  <date>2026-11-16T01:13:21.265156300Z</date>
+  <millis>1794791601265</millis>
+  <nanos>156300</nanos>
   <sequence>5</sequence>
   <logger>aspects.LoggingAspect</logger>
   <level>INFO</level>
-  <class>aspects.LoggingAspect</class>
-  <method>avant</method>
+  <class>metier.MetierBanqueImpl</class>
+  <method>consulter_aroundBody9$advice</method>
   <thread>1</thread>
   <message>---------------------------------------------------------</message>
 </record>
 <record>
-  <date>2026-11-15T19:51:07.572736600Z</date>
-  <millis>1794772267572</millis>
-  <nanos>736600</nanos>
+  <date>2026-11-16T01:13:21.266010100Z</date>
+  <millis>1794791601266</millis>
+  <nanos>10100</nanos>
   <sequence>6</sequence>
   <logger>aspects.LoggingAspect</logger>
   <level>INFO</level>
-  <class>aspects.LoggingAspect</class>
-  <method>avant</method>
-  <thread>1</thread>
-  <message>Avant l'execution de la methode void metier.MetierBanqueImpl.verser(Long, double)</message>
-</record>
-<record>
-  <date>2026-11-15T19:51:07.573734Z</date>
-  <millis>1794772267573</millis>
-  <nanos>734000</nanos>
-  <sequence>7</sequence>
-  <logger>aspects.LoggingAspect</logger>
-  <level>INFO</level>
-  <class>aspects.LoggingAspect</class>
-  <method>apres</method>
-  <thread>1</thread>
-  <message>Apres l'execution de la methode void metier.MetierBanqueImpl.verser(Long, double)</message>
-</record>
-<record>
-  <date>2026-11-15T19:51:07.573734Z</date>
-  <millis>1794772267573</millis>
-  <nanos>734000</nanos>
-  <sequence>8</sequence>
-  <logger>aspects.LoggingAspect</logger>
-  <level>INFO</level>
-  <class>aspects.LoggingAspect</class>
-  <method>apres</method>
-  <thread>1</thread>
-  <message>Duré d'execution de la methode 2</message>
-</record>
-<record>
-  <date>2026-11-15T19:51:07.574737200Z</date>
-  <millis>1794772267574</millis>
-  <nanos>737200</nanos>
-  <sequence>9</sequence>
-  <logger>aspects.LoggingAspect</logger>
-  <level>INFO</level>
-  <class>aspects.LoggingAspect</class>
-  <method>apres</method>
-  <thread>1</thread>
-  <message>---------------------------------------------------------</message>
-</record>
-<record>
-  <date>2026-11-15T19:51:07.575729800Z</date>
-  <millis>1794772267575</millis>
-  <nanos>729800</nanos>
-  <sequence>10</sequence>
-  <logger>aspects.LoggingAspect</logger>
-  <level>INFO</level>
-  <class>aspects.LoggingAspect</class>
-  <method>avant</method>
-  <thread>1</thread>
-  <message>---------------------------------------------------------</message>
-</record>
-<record>
-  <date>2026-11-15T19:51:07.576726900Z</date>
-  <millis>1794772267576</millis>
-  <nanos>726900</nanos>
-  <sequence>11</sequence>
-  <logger>aspects.LoggingAspect</logger>
-  <level>INFO</level>
-  <class>aspects.LoggingAspect</class>
-  <method>avant</method>
+  <class>metier.MetierBanqueImpl</class>
+  <method>consulter_aroundBody9$advice</method>
   <thread>1</thread>
   <message>Avant l'execution de la methode Compte metier.MetierBanqueImpl.consulter(Long)</message>
 </record>
 <record>
-  <date>2026-11-15T19:51:07.577734200Z</date>
-  <millis>1794772267577</millis>
-  <nanos>734200</nanos>
-  <sequence>12</sequence>
+  <date>2026-11-16T01:13:21.266833700Z</date>
+  <millis>1794791601266</millis>
+  <nanos>833700</nanos>
+  <sequence>7</sequence>
   <logger>aspects.LoggingAspect</logger>
   <level>INFO</level>
-  <class>aspects.LoggingAspect</class>
-  <method>apres</method>
+  <class>metier.MetierBanqueImpl</class>
+  <method>consulter_aroundBody9$advice</method>
   <thread>1</thread>
   <message>Apres l'execution de la methode Compte metier.MetierBanqueImpl.consulter(Long)</message>
 </record>
 <record>
-  <date>2026-11-15T19:51:07.577734200Z</date>
-  <millis>1794772267577</millis>
-  <nanos>734200</nanos>
-  <sequence>13</sequence>
+  <date>2026-11-16T01:13:21.267048900Z</date>
+  <millis>1794791601267</millis>
+  <nanos>48900</nanos>
+  <sequence>8</sequence>
   <logger>aspects.LoggingAspect</logger>
   <level>INFO</level>
-  <class>aspects.LoggingAspect</class>
-  <method>apres</method>
+  <class>metier.MetierBanqueImpl</class>
+  <method>consulter_aroundBody9$advice</method>
   <thread>1</thread>
   <message>Duré d'execution de la methode 2</message>
 </record>
 <record>
-  <date>2026-11-15T19:51:07.578730Z</date>
-  <millis>1794772267578</millis>
-  <nanos>730000</nanos>
-  <sequence>14</sequence>
+  <date>2026-11-16T01:13:21.267048900Z</date>
+  <millis>1794791601267</millis>
+  <nanos>48900</nanos>
+  <sequence>9</sequence>
   <logger>aspects.LoggingAspect</logger>
   <level>INFO</level>
-  <class>aspects.LoggingAspect</class>
-  <method>apres</method>
+  <class>metier.MetierBanqueImpl</class>
+  <method>consulter_aroundBody9$advice</method>
   <thread>1</thread>
   <message>---------------------------------------------------------</message>
 </record>
