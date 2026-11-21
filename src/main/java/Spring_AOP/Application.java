@@ -2,6 +2,7 @@ package Spring_AOP;
 
 import Spring_AOP.service.IMetier;
 import Spring_AOP.service.SecurityContext;
+import org.springframework.beans.BeansException;
 import org.springframework.context.ApplicationContext;
 import org.springframework.context.annotation.AnnotationConfigApplicationContext;
 import org.springframework.context.annotation.ComponentScan;
@@ -10,12 +11,16 @@ import org.springframework.context.support.ClassPathXmlApplicationContext;
 @ComponentScan(basePackages = {"Spring_AOP"})
 public class Application {
     public static void main(String[] args) {
-        SecurityContext.authenticate("root","1234",new String[]{"USER"});
-        ApplicationContext  applicationContext = new AnnotationConfigApplicationContext(Application.class);
+        try {
+            SecurityContext.authenticate("root","1234",new String[]{"USER"});
+            ApplicationContext  applicationContext = new AnnotationConfigApplicationContext(Application.class);
 
-        IMetier metier = applicationContext.getBean(IMetier.class);
-        metier.process();
-        System.out.println(metier.compute());
+            IMetier metier = applicationContext.getBean(IMetier.class);
+            metier.process();
+            System.out.println(metier.compute());
+        } catch (Exception e) {
+            System.out.println(e.getMessage());
+        }
 
 
     }
