@@ -1,4 +1,4 @@
-package Spring_AOP;
+package Spring_AOP.service;
 
 public interface IMetier {
     void process();
